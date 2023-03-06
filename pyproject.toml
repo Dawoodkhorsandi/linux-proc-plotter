@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "linux-proc-parser"
+version = "0.1.0"
+description = ""
+authors = ["Dawood Khorsandi <dawoodkhorsandi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "linux_proc_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
